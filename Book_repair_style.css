@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(164, 156, 156);
+  }
+  
+  /* Style the header */
+  header {
+    
+    padding: 45px;
+    text-align: left;
+    font-size: 45px;
+    height: 550px;
+    
+    
+  }
+  .banner{
+      float: left;
+  }
+  .parrafo{
+      float: left;
+      margin-left: 300px;
+      color: lavender;
+  }
+  h5{
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    color: lavender;
+    margin-left: 300px;
+  }
+  header{
+      animation-name: example;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-delay: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  }
+    
+  @keyframes example {
+      0%   {background-color: gray;}
+      25%  {background-color: rgb(220, 150, 20);}
+      50%  {background-color:black;}
+      100% {background-color: gray;}
+  }
+
+.contacto{
+
+    margin: 250px;
+    padding: 25px;
+    width: 450px;
+    height: 450px;
+    font-size: 20px;
+    color: black;
+    
+}
+input{
+    border: 5px solid black;
+    width: 500px;
+    height: 60px;
+    margin: 50px;
+}
+#message{
+    width: 500px;
+    height: 200px;
+}
+#contact{
+    color: black;
+    font-size: 40px;
+    width: 700px;
+    margin-bottom: 80px;
+    
+}
+#boton{
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+}

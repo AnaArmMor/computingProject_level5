@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(164, 156, 156);
+  }
+  
+  /* Style the header */
+  header {
+    
+    padding: 45px;
+    text-align: left;
+    font-size: 45px;
+    height: 550px;
+    
+    
+  }
+  .banner{
+      float: left;
+  }
+  .parrafo{
+      float: left;
+      margin-left: 300px;
+      color: lavender;
+  }
+  h5{
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    color: lavender;
+    margin-left: 300px;
+  }
+  header{
+      animation-name: example;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-delay: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  }
+    
+  @keyframes example {
+      0%   {background-color: gray;}
+      25%  {background-color: rgb(220, 150, 20);}
+      50%  {background-color:black;}
+      100% {background-color: gray;}
+  }
+ul, p{
+  margin-left: 250px;
+  padding-top: 100px;
+  font-size: 25px;
+}
